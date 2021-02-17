@@ -67,4 +67,5 @@ a {
 #resume, #project {
     display: flex;
     justify-content: center;
+    margin: auto;
 }
