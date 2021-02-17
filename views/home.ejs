@@ -3,9 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="/stylesheet.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Eczar&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>hello</h1>
+        <%- include ('./partials/header.ejs') %>
+        <h1 id="name"> Cavell Wong </h1>
+        <p> Welcome to my portfolio.</p>
+        <p class="basicInfo">I'm a software engineer with a Math background. In other words, i am a problem solver at heart and love challenging myself(knowledge is painful at times but it comes with GREAT satisfaction)</p>
+
+
         <%- include ('./partials/footer.ejs') %>
     </body>
 </html>

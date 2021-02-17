@@ -1,0 +1,65 @@
+ion-icon {
+    color: whitesmoke;
+}
+body {
+    display: flex;
+    background-color:  #121212 ;
+    color: whitesmoke;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+
+a {
+    margin: auto;
+    text-decoration: none;
+
+}
+
+.basicInfo {
+    width: 50%;
+    margin: auto;
+    line-height: 2em;
+}
+
+.navigation>a {
+    width: 100%;
+    color: whitesmoke;
+    background-color: black;
+    padding: .5em;
+    margin: 5em;
+}
+
+.navigation>a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.navigation {
+    border: 1px black solid;
+    top: 0px;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    padding: .5em;
+}
+
+#name, h1 {
+    margin: 1.5em;
+    font-family: 'Eczar', serif;
+
+}
+
+
+
+.socials {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    bottom: 0px;
+    background-color: #1d1d1f;
+    padding: .5em;
+}
