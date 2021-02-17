@@ -63,3 +63,8 @@ a {
     background-color: #1d1d1f;
     padding: .5em;
 }
+
+#resume {
+    display: flex;
+    justify-content: center;
+}
