@@ -24,7 +24,7 @@ a {
     line-height: 2em;
 }
 
-.navigation>a {
+.navigation>a, a {
     width: 100%;
     color: whitesmoke;
     background-color: black;
