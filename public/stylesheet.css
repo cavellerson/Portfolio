@@ -15,7 +15,7 @@ body {
 a {
     margin: auto;
     text-decoration: none;
-
+    color: whitesmoke;
 }
 
 .basicInfo {
@@ -24,7 +24,7 @@ a {
     line-height: 2em;
 }
 
-.navigation>a, a {
+.navigation>a {
     width: 100%;
     color: whitesmoke;
     background-color: black;
