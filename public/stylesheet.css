@@ -64,7 +64,7 @@ a {
     padding: .5em;
 }
 
-#resume {
+#resume, #project {
     display: flex;
     justify-content: center;
 }
